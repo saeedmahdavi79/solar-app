@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@font-face {
+  font-family: dana;
+  src: url(../../public/fonts/DanaFaNum-Bold.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: dana;
+  src: url(../../public/fonts/DanaFaNum-Regular.woff);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: dana;
+  src: url(../../public/fonts/DanaFaNum-Thin.woff);
+  font-weight: 200;
+}
+
+* {
+  font-family: dana !important;
+}
+
+body {
+  font-family: dana !important;
+}
